@@ -66,7 +66,13 @@ Create a new list of lists, with each sublist corresponding to the tokenized, st
 For each page you accessed:
 
 * For each list of lemmatized stopword-free tokens, create a frequency distribution and print out the top 20 words.
-* For each list of lemmatized stopword-free tokens, turn them into a string using `" ".join()` and then create one word cloud, as shown in the code for [Class 9.1](https://github.com/CSCI-2349-F23/sample_code/tree/main/class9.1). Save each word cloud to a .png file. (Use `plt.savefig('wordcloud3.png')`).
+* For each list of lemmatized stopword-free tokens, turn them into a string using `" ".join()` and then create one word cloud, as shown in the code for [Class 9.1](https://github.com/CSCI-2349-F23/sample_code/tree/main/class9.1). Save each word cloud to a .png file. You can use the `savefig()` function, e.g., `plt.savefig('wordcloud3.png')`.
+
+Here are a few word clouds I created from the [Endangered Animals page](https://en.wikipedia.org/wiki/Category:Endangered_animals).
+
+<img src="wordcloud2.png" width="500">
+<img src="wordcloud4.png" width="500">
+<img src="wordcloud6.png" width="500">
 
 Then concatenate all your lists into one giant list of lemmatized stopword-free tokens, and
 * Create a frequency distribution and print out the the top 20 words.
