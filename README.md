@@ -4,9 +4,9 @@ In this problem set, you will be using the tools and libraries we've been learni
 
 You will submit a single `.tgz` file containing the deliverables described at the end of this README.
 
-I recommend writing this in Jupyter at first so that you are not repeatedly hitting the Wikipedia website each time your run your program. You can save the text for each page once, then do whatever you need to do with it. Then restart your kernel, run all your code to make sure it works, then put all the code in a `.py` file.
+I recommend writing this in Jupyter at first so that you are not repeatedly hitting the Wikipedia website each time your run your program. Using Jupyter, you can save the text for each page once, then do whatever you need to do with it. Once you've got it all figured out, then restart your kernel, and run all your code to make sure it works. Then put all the code in a `.py` file, run it one more time to make sure it works, and you should be good.
 
-**You must comment your code! We want to be able to give you partial credit, but if there are no comments, we can't do this. I will ask the TAs to deduct 10% of your final grade if you do not provide helpful and detailed comments.**
+**You must comment your code! We want to be able to give you partial credit, but if there are no comments, we can't do this. I will ask the TAs to deduct 20% of your final grade if you do not provide helpful and detailed comments.**
 
 This problem set is due Monday, October 30, at 11:59pm EDT.
 
@@ -90,7 +90,7 @@ Here's the word cloud I created for all the links on the [Endangered Animals pag
 ---
 
 ## Deliverables
-1. A single python script that does all of the above. Remember that it has two arguments: the URL of the Categories page you want to explore and an integer indicating the number of links to follow, which will be determined by the number of links under "Pages in Category X". Make sure the script prints out everything that is required above, and make sure it saves all the word clouds as jpeg images.
+1. A single python script that does all of the above. Remember that it has two arguments: the URL of the Categories page you want to explore and an integer indicating the number of links to follow, which will be determined by the number of links under "Pages in Category X". Make sure the script prints out everything that is required above, and make sure it saves all the word clouds as png images.
 2. A bash script that will run your python script on all three Category pages you selected.
 3. A short pdf containing the answers to the questions labeled with a Q above.
 
