@@ -76,7 +76,7 @@ Here are a few word clouds I created from pages from the [Endangered Animals pag
 
 Then concatenate all your lists into one giant list of lemmatized stopword-free tokens, and
 * Create a frequency distribution and print out the the top 20 words.
-* Turn the whole thing into one giant string using `" ".join()` (a few times!) and make a single word cloud. Save the word cloud to a .png file.
+* Turn the whole thing into one giant string using `" ".join()` and make a single word cloud. Save the word cloud to a `.png` file.
 
 Here's the word cloud I created for all the links on the [Endangered Animals page](https://en.wikipedia.org/wiki/Category:Endangered_animals).
 
