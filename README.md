@@ -68,7 +68,7 @@ For each page you accessed:
 * For each list of lemmatized stopword-free tokens, create a frequency distribution and print out the top 20 words.
 * For each list of lemmatized stopword-free tokens, turn them into a string using `" ".join()` and then create one word cloud, as shown in the code for [Class 9.1](https://github.com/CSCI-2349-F23/sample_code/tree/main/class9.1). Save each word cloud to a .png file. You can use the `savefig()` function, e.g., `plt.savefig('wordcloud3.png')`.
 
-Here are a few word clouds I created from the [Endangered Animals page](https://en.wikipedia.org/wiki/Category:Endangered_animals).
+Here are a few word clouds I created from pages from the [Endangered Animals page](https://en.wikipedia.org/wiki/Category:Endangered_animals).
 
 <img src="wordcloud2.png" width="500">
 <img src="wordcloud4.png" width="500">
@@ -76,7 +76,11 @@ Here are a few word clouds I created from the [Endangered Animals page](https://
 
 Then concatenate all your lists into one giant list of lemmatized stopword-free tokens, and
 * Create a frequency distribution and print out the the top 20 words.
-* Turn the whole thing into a string using `" ".join()` and make a single word cloud. Save the word cloud to a .png file.
+* Turn the whole thing into one giant string using `" ".join()` (a few times!) and make a single word cloud. Save the word cloud to a .png file.
+
+Here's the word cloud I created for all the links on the [Endangered Animals page](https://en.wikipedia.org/wiki/Category:Endangered_animals).
+
+<img src="allwordcloud.png" width="500">
 
 ## BONUS OPTIONS
 1. Investigate (sentence tokenization with nltk)[https://www.nltk.org/api/nltk.tokenize.html]. Sentence tokenize the text for each Wikipedia page before you word tokenize.
