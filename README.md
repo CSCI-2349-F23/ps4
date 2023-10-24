@@ -83,9 +83,9 @@ Here's the word cloud I created for all the links on the [Endangered Animals pag
 <img src="allwordcloud.png" width="500">
 
 ## BONUS OPTIONS
-1. Investigate (sentence tokenization with nltk)[https://www.nltk.org/api/nltk.tokenize.html]. Sentence tokenize the text for each Wikipedia page before you word tokenize.
+1. Investigate [sentence tokenization with nltk](https://www.nltk.org/api/nltk.tokenize.html). Sentence tokenize the text for each Wikipedia page before you word tokenize.
 
-2. Invesigate (part of speech tagging with nltk)[https://www.nltk.org/api/nltk.tag.html]. For each sentence, get the part of speech for each word using one of the nltk part of speech taggers; then use the part of speech to improve the lemmatization step above.
+2. Invesigate [part of speech tagging with nltk](https://www.nltk.org/api/nltk.tag.html). For each sentence, get the part of speech for each word using one of the nltk part of speech taggers; then use the part of speech to improve the lemmatization step above.
 
 ---
 
