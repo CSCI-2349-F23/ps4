@@ -6,7 +6,7 @@ You will submit a single `.tgz` file containing the deliverables described at th
 
 I recommend writing this in Jupyter at first so that you are not repeatedly hitting the Wikipedia website each time your run your program. Using Jupyter, you can save the text for each page once, then do whatever you need to do with it. Once you've got it all figured out, then restart your kernel, and run all your code to make sure it works. Then put all the code in a `.py` file, run it one more time to make sure it works, and you should be good.
 
-**You must comment your code! We want to be able to give you partial credit, but if there are no comments, we can't do this. I will ask the TAs to deduct 20% of your final grade if you do not provide helpful and detailed comments.**
+**You must comment your code! We want to be able to give you partial credit, but if there are no comments, we can't do this. I will ask the TAs to deduct 10% of your final grade if you do not provide helpful and detailed comments.**
 
 This problem set is due Monday, October 30, at 11:59pm EDT.
 
