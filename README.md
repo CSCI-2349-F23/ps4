@@ -52,8 +52,8 @@ I recommend starting with the notebook from [9.1 sample code](https://github.com
  Once you've got it all figured out, then restart your kernel, and run all your code to make sure it works. Then put all the code in a `.py` file, run it one more time to make sure it works using the arguments described below in Part 2.
 
 
-### Option #1: Running on cslab
-You can also run your code on cslab, but it will be more complicated since some of the libraries we need are not supported in Python 3.6. I would do this only if you have a lot of trouble istalling libraries on your own machine. Here's how to install the libraries on cslab:
+### Option #2: Running on cslab
+You can also run your code on cslab, but it will be more complicated since some of the libraries we need are not supported in Python 3.6. I would do this only if you have a lot of trouble installing libraries on your own machine. Here's how to install the libraries on cslab:
 
 ```
 python3 -m pip install --user jupyter
