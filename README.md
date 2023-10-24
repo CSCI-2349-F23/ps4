@@ -98,3 +98,5 @@ Tar and zip this all up into a single `.tgz` file called `ps4.tgz`. Submit that 
 
 **You must comment your code! We want to be able to give you partial credit, but if there are no comments, we can't do this. I will ask the TAs to deduct 10% of your final grade if you do not provide helpful and detailed comments.**
 
+This problem set is due Monday, October 30, at 11:59pm EDT.
+
