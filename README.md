@@ -14,9 +14,11 @@ This problem set is due Monday, October 30, at 11:59pm EDT.
 
 ## Part 0: Installing libraries
 
-Here are the libraries you need to install for nltk and wordcloud. Remember to use the --user flag on cslab (but use Jupyter on your own computer, if possible).
+### Option #1: Installing on your own machine using Jupyter
+As I mention above, it's better if you try this within Jupyter so that you are not repeatedly hitting Wikipedia as you work out kinks in your pipelie. You'll also be able to view your wordcloud within the notebook. Here are the libraries you need to install for nltk and wordcloud on your own machine.
 
 ```
+python3 -m pip install jupyter
 python3 -m pip install nltk
 python3 -m pip install numpy
 python3 -m pip install matplotlib
@@ -24,27 +26,60 @@ python3 -m pip install pillow
 python3 -m pip install wordcloud
 ```
 
-If you choose to use Jupyter on your own machine, you also need to install install that:
-
-```
-python3 -m pip install jupyter
-```
-
 If you are installing nltk for the first time, remember that you have to download some nltk packages:
-
-1. Launch the Python interpreter from a terminal
+* Launch the Python interpreter from a terminal
 
 ```
 python3
 ```
 
-2. From the Python interpreter prompt, type the following three commands, one at a a time.
+* From the Python interpreter prompt, type the following three commands, one at a a time.
 
 ```
 import nltk
 nltk.download('popular')
 quit()
 ```
+
+You can launch Jupyter by opening a terminal on your machine and typing
+
+```
+jupyter notebook
+```
+
+I recommend starting with the notebook from [9.1 sample code](https://github.com/CSCI-2349-F23/sample_code/tree/main/class9.1), which has the pipeline all the way from tokenization through word clouds ready for you to improve and edit for the tasks described below. Then you can add cells at the beginning of the notebook to get the text you need to process from the webpages using BeautifulSoup, repurposing code from [sample code for Class 7.2 in the file `basic_webscrape.py`](https://github.com/CSCI-2349-F23/sample_code/blob/main/class7.1/basic_webscrape.py).
+
+ Once you've got it all figured out, then restart your kernel, and run all your code to make sure it works. Then put all the code in a `.py` file, run it one more time to make sure it works using the arguments described below in Part 2.
+
+
+### Option #1: Running on cslab
+You can also run your code on cslab, but it will be more complicated since some of the libraries we need are not supported in Python 3.6. I would do this only if you have a lot of trouble istalling libraries on your own machine. Here's how to install the libraries on cslab:
+
+```
+python3 -m pip install --user jupyter
+python3 -m pip install --user nltk
+python3 -m pip install --user numpy
+python3 -m pip install --user matplotlib
+python3 -m pip install --user pillow
+python3 -m pip install --user wordcloud==1.8.0
+```
+
+If you are installing nltk for the first time, remember that you have to download some nltk packages:
+* Launch the Python interpreter from a terminal
+
+```
+python3
+```
+
+* From the Python interpreter prompt, type the following three commands, one at a a time.
+
+```
+import nltk
+nltk.download('popular')
+quit()
+```
+
+
 
 
 
