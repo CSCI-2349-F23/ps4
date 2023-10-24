@@ -12,6 +12,42 @@ This problem set is due Monday, October 30, at 11:59pm EDT.
 
 ---
 
+## Part 0: Installing libraries
+
+Here are the libraries you need to install for nltk and wordcloud. Remember to use the --user flag on cslab (but use Jupyter on your own computer, if possible).
+
+```
+python3 -m pip install nltk
+python3 -m pip install numpy
+python3 -m pip install matplotlib
+python3 -m pip install pillow
+python3 -m pip install wordcloud
+```
+
+If you choose to use Jupyter, you shoudl also install that:
+
+```
+python3 -m pip install jupyter
+```
+
+If you are installing nltk for the first time, remember that you have to download some nltk packages:
+
+1. Launch the Python interpreter from a terminal
+
+```
+python3
+```
+
+2. From the Python interpreter prompt, type the following three commands, one at a a time.
+
+```
+import nltk
+nltk.download('popular')
+quit()
+```
+
+
+
 ## Part 1: Selecting your data sources
 
 Select *three* Wikipedia category pages from the [Wikipedia Category page](https://en.wikipedia.org/wiki/Special:Categories). You can search in the box under "Display categories starting at:" to find a category you might be interested in. Here are some examples of what a Category page looks like:
