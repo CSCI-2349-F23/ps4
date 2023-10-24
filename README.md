@@ -4,6 +4,10 @@ In this problem set, you will be using the tools and libraries we've been learni
 
 You will submit a single `.tgz` file containing the deliverables described at the end of this README.
 
+I recommend writing this in Jupyter at first so that you are not repeatedly hitting the Wikipedia website each time your run your program. You can save the text for each page once, then do whatever you need to do with it. Then restart your kernel, run all your code to make sure it works, then put all the code in a `.py` file.
+
+**You must comment your code! We want to be able to give you partial credit, but if there are no comments, we can't do this. I will ask the TAs to deduct 10% of your final grade if you do not provide helpful and detailed comments.**
+
 This problem set is due Monday, October 30, at 11:59pm EDT.
 
 ---
@@ -79,3 +83,6 @@ Then concatenate all your lists into one giant list of lemmatized stopword-free 
 3. A short pdf containing the answers to the questions labeled with a Q above.
 
 Tar and zip this all up into a single `.tgz` file called `ps4.tgz`. Submit that `.tgz` file to Canvas.
+
+**You must comment your code! We want to be able to give you partial credit, but if there are no comments, we can't do this. I will ask the TAs to deduct 10% of your final grade if you do not provide helpful and detailed comments.**
+
