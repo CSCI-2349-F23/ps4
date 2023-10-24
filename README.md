@@ -108,6 +108,8 @@ Create an empty list of strings, where each string represents the contents of on
 
 At the end of this process you will have a list of strings, one string for each of the links you followed. The strings will be very long since each one will contain all the text of a Wikipedia page.
 
+**Helpful Hint: As you are working on this part, keep the number of links to follow small, like 3. This will prevent you from hitting Wikipedia too much. Once you know it works for 3, then try 10. Then write the rest of your code and cofirm that it works. Then, for your final test, set the number of links as needed to get all the relevant links on the page.**
+
 **Note: The way some Category pages are set up, the first link after "Pages in Category X" is a link to a help page for Wikipedia editors. If you notice this in your pages, you can delete the first element in your lists with `del yourlistname[0]`.**
 
 ### Q1: How many strings are in your list (i.e., how many pages did you get)? What is the average number of characters in each string (i.e., the text of each page)?
