@@ -24,7 +24,7 @@ python3 -m pip install pillow
 python3 -m pip install wordcloud
 ```
 
-If you choose to use Jupyter, you shoudl also install that:
+If you choose to use Jupyter on your own machine, you also need to install install that:
 
 ```
 python3 -m pip install jupyter
