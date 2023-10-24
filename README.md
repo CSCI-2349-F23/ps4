@@ -12,7 +12,7 @@ This problem set is due Monday, October 30, at 11:59pm EDT.
 
 ---
 
-## Part 1: Selecting a data source
+## Part 1: Selecting your data sources
 
 Select *three* Wikipedia category pages from the [Wikipedia Category page](https://en.wikipedia.org/wiki/Special:Categories). You can search in the box under "Display categories starting at:" to find a category you might be interested in. Here are some examples of what a Category page looks like:
 
@@ -37,14 +37,16 @@ Create an empty list of strings, where each string represents the contents of on
 
 At the end of this process you will have a list of strings, one string for each of the links you followed. The strings will be very long since each one will contain all the text of a Wikipedia page.
 
-### Q1: How many strings are in your list? What is the average number of characters in each string?
+**Note: The way some Category pages are set up, the first link after "Pages in Category X" is to a help page for Wikipedia editors. If you notice this in your pages, you can delete the first element in your lists with `del yourlistname[0]`.**
+
+### Q1: How many strings are in your list (i.e., how many pages did you get)? What is the average number of characters in each string (i.e., the text of each page)?
 
 ## Part 3: Word tokenize
 Create a new list. This will be a list of lists. Each sublist will be the tokenized text of one Wikipeda page. 
 
 Tokenize each string in your list of strings (one string per Wikipedia page) using the nltk word tokenizer. (You can review how to word tokenize by looking at the code for [Class 8.2](https://github.com/CSCI-2349-F23/sample_code/tree/main/class8.2).) Append the output of the tokenizer (a list of tokens) to your list of lists. The length of the list should be the same as the length of the list of strings from Part 2, above.
 
-### Q2: On average how many tokens are in a string? (Remember each string corresponds to all the text on a particular Wikipedia page.)
+### Q2: On average how many tokens are in a string? (Remember: each string corresponds to all the text on a particular Wikipedia page.)
 
 ## Part 4: Remove stop words
 Create a really good stop word list by extending the nlkt English stop word list with things you know are missing: puncutation, could, would, without, and all those words we added in the [Class 8.2](https://github.com/CSCI-2349-F23/sample_code/tree/main/class8.2) and [9.1 sample code](https://github.com/CSCI-2349-F23/sample_code/tree/main/class9.1). I suggest spending a while adding stop words based on the output you get from your frequency distributions until you feel like you've gotten lots of closed-class (function) words. You are also welcome to search for stop lists on the web and just add lots of new words en masse.
@@ -63,12 +65,12 @@ Create a new list of lists, with each sublist corresponding to the tokenized, st
 
 For each page you accessed:
 
-* For each list of lemmatized stopword-free tokens, a frequency distribution and print out the top 20 words.
-* For each list of lemmatized stopword-free tokens, turn them into a string using `" ".join()` and then create a word cloud, as shown in the code for [Class 9.1](https://github.com/CSCI-2349-F23/sample_code/tree/main/class9.1). Save each word cloud to a jpeg file.
+* For each list of lemmatized stopword-free tokens, create a frequency distribution and print out the top 20 words.
+* For each list of lemmatized stopword-free tokens, turn them into a string using `" ".join()` and then create one word cloud, as shown in the code for [Class 9.1](https://github.com/CSCI-2349-F23/sample_code/tree/main/class9.1). Save each word cloud to a .png file. (Use `plt.savefig('wordcloud3.png')`).
 
 Then concatenate all your lists into one giant list of lemmatized stopword-free tokens, and
 * Create a frequency distribution and print out the the top 20 words.
-* Turn the whole thing into a string using `" ".join()` and make a word cloud. Save the word cloud to a jpeg file.
+* Turn the whole thing into a string using `" ".join()` and make a single word cloud. Save the word cloud to a .png file.
 
 ## BONUS OPTIONS
 1. Investigate (sentence tokenization with nltk)[https://www.nltk.org/api/nltk.tokenize.html]. Sentence tokenize the text for each Wikipedia page before you word tokenize.
