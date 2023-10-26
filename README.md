@@ -95,7 +95,9 @@ You want to make sure to select three pages that have at least 10 links under "P
 
 ## Part 2: Getting the text for a particular category page
 
-Write a Python program that will take two arguments: (1) the URL to any one of your three Wikipedia pages, and (2) the number of links you want to process, which is based on how many links to "Pages in Category X" are actually on the page. Look at the [sample code for Class 7.2 in the file `basic_webscrape.py`](https://github.com/CSCI-2349-F23/sample_code/blob/main/class7.1/basic_webscrape.py) to remember how this works.
+Write a Python program that will take two arguments: (1) the URL to any one of your three Wikipedia pages, and (2) the number of links you want to process, which is based on how many links to "Pages in Category X" are actually on the page. Look at the [sample code for Class 7.2 in the file `basic_webscrape.py`](https://github.com/CSCI-2349-F23/sample_code/blob/main/class7.1/basic_webscrape.py) to remember how this works. 
+
+*Note: The point of the second argument is to allow you to test your code with just a few pages and to allow the TAs to test your code with just a few pages. I don't want the TAs getting shut out of Wikipedia for 24 hours because they made too many requests. They will be testing your code with just a few pages.*
 
 Create an empty list of strings, where each string represents the contents of one of the links under "Pages in Category X". Then, for each link under "Pages in Category X" that you find on your category page:
 
